@@ -1,0 +1,28 @@
+:root{
+    --color-pri:#fed200;
+    --color-grey:#ededed;
+    --color-dark:#000;
+    --color-white:#fff;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-grey);
+    color: var(--color-dark);
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+}
+
+a:is(:link,:visited){
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
