@@ -289,6 +289,21 @@
     text-transform: capitalize;
 }
 
+/* footer-section is start at this point */
+
+.footer-section{
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 20px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+
+
 @media all and (min-width:1180px){
     .navbar ul{
         flex-direction: row;
@@ -455,6 +470,10 @@
 
     .gallary-section{
         padding-right: 0;
+    }
+
+    .footer-section{
+        font-size: 20px;
     }
 }
 
