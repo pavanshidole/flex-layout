@@ -42,3 +42,11 @@ ul,ol{
 .text-capitalize{
     text-transform: capitalize;
 }
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.font-size{
+    font-size: 14px;
+}

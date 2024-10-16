@@ -120,7 +120,7 @@
 }
 
 .watch-card figure{
-    height: 800px;
+    /* height: 500px; */
     width: 100%;
 }
 
@@ -150,7 +150,7 @@
 
 .watch-content li{
     margin-right: 7px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 25px;
 }
@@ -165,6 +165,85 @@
 
 .mb-40{
     margin-bottom: 40px;
+}
+
+/* download section is start at this point */
+
+.download-card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-dark);
+}
+
+.download-img figure{
+    width: 100%;
+    /* height: 350px; */
+    object-fit: cover;
+}
+
+.download-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.download-content{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+
+.download-info{
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+}
+
+.download-link{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+.download-info h4{
+    flex:0 0 50px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.download-genre{
+    display: flex;
+    padding: 10px 0 10px  10px;
+}
+
+.download-cast{
+    display: flex;
+    padding: 10px 0 10px  10px;
+}
+
+.download-cast img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.download-rating{
+    background-color: var(--color-pri);
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 
 @media all and (min-width:1180px){
@@ -192,7 +271,6 @@
         flex-basis: 400px;
         flex-shrink: 0;
     }
-    
 
     .posts{
         flex-direction: row;
@@ -244,7 +322,54 @@
     .watch-content{
         align-self: center;
     }
+
+    .download-content{
+        flex-direction: row;
+        
+    }
+
+    .download-img figure{
+        height: 575px;
+    }
     
+    .download-link{
+        flex: 0 0 200px;
+    }
+
+    .download-rating{
+        flex:0 0 200px
+    }
+    
+    .download-info{
+        flex:1;
+    }
+    
+    .download-info h4{
+        flex:0 0 65px;
+        
+    }
+
+    .font-size{
+        font-size: 20px;
+    }
+
+    .download-link{
+        justify-content: center;
+    }
+
+    .download-rating{
+        justify-content: center;
+    }
+
+    .download-cast img{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        margin-right: 12px;
+    }
+
+    
+
 }
 
 
